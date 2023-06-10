@@ -11,6 +11,7 @@
 		879545742A3501CA0080F103 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879545732A3501CA0080F103 /* ContentView.swift */; };
 		879545762A3501CA0080F103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879545752A3501CA0080F103 /* Assets.xcassets */; };
 		879545792A3501CA0080F103 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879545782A3501CA0080F103 /* Preview Assets.xcassets */; };
+		879545802A3514F40080F103 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8795457F2A3514F40080F103 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		879545732A3501CA0080F103 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		879545752A3501CA0080F103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		879545782A3501CA0080F103 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8795457F2A3514F40080F103 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				879545712A3501CA0080F103 /* TrafficLightApp.swift */,
 				879545732A3501CA0080F103 /* ContentView.swift */,
+				8795457F2A3514F40080F103 /* CircleView.swift */,
 				879545752A3501CA0080F103 /* Assets.xcassets */,
 				879545772A3501CA0080F103 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				879545802A3514F40080F103 /* CircleView.swift in Sources */,
 				879545742A3501CA0080F103 /* ContentView.swift in Sources */,
 				879545722A3501CA0080F103 /* TrafficLightApp.swift in Sources */,
 			);

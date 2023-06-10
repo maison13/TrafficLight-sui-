@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct CircleView: View {
+    let color: Color
+    let opacity: CGFloat
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Circle()
+            .foregroundColor(color)
+            .frame(width: 150, height: 150)
+            .overlay(Circle().stroke(.white, lineWidth: 4))
+            .shadow(radius: 10)
+            .opacity(opacity)
     }
 }
 
 #Preview {
-    CircleView()
+    CircleView(color: .red, opacity: 1)
 }
